@@ -1,0 +1,99 @@
+.title-services {
+  font-size: 18.72px;
+  font-weight: 700;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.text-box {
+  margin-bottom: 5px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #e6e6e6;
+}
+
+.text-box h2 {
+  font-size: 18.72px;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.p-text-box {
+  margin-bottom: 12px;
+}
+
+.aside-form {
+  background: #35424a;
+  color: white;
+  padding: 30px 20px 20px 20px;
+  width: 35%;
+  margin-left: 60px;
+  min-width: 35%;
+}
+
+.aside-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 4px;
+}
+
+.input::placeholder {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.casillas-form {
+  margin: 10px 0px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: #e8491d;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .main-divisor,
+  .subscription div,
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .menu div {
+    padding-top: 11px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newsletter-form input {
+    margin-bottom: 7px;
+    width: 100%;
+  }
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  .text-and-form-container {
+    flex-direction: column;
+  }
+  .aside-form {
+    margin-top: 15px;
+    margin-left: 0px;
+    width: 100%;
+  }
+}

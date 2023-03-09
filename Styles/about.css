@@ -1,0 +1,56 @@
+.about-us h2,
+.aside-container h2 {
+  font-size: 18.72px;
+  font-weight: 700;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.about-us p {
+  margin: 20px 0px;
+}
+
+.box-dark {
+  background-color: #35424a;
+  color: white;
+  margin: 10px 0px;
+  padding: 15px;
+}
+
+.aside-container {
+  margin-left: 25px;
+}
+
+@media (max-width: 991px) {
+  .main-divisor,
+  .subscription div,
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .menu div {
+    padding-top: 11px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newsletter-form input {
+    margin-bottom: 7px;
+    width: 100%;
+  }
+  .newsletter-form button {
+    width: 100%;
+  }
+
+  .full-text-container {
+    flex-direction: column;
+  }
+
+  .aside-container {
+    margin-left: 0px;
+  }
+}

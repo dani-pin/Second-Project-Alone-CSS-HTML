@@ -1,0 +1,70 @@
+.promotion-info {
+  min-height: 400px;
+  box-sizing: inherit;
+  color: white;
+  text-align: center;
+  background: url(/Images/background-image-home.jpeg) no-repeat 0px -400px;
+}
+
+.promotion-info h1 {
+  font-size: 43px;
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+.promotion-info p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.products-main-container div {
+  padding: 20px;
+  text-align: center;
+}
+
+.products-main-container img {
+  width: 90px;
+}
+
+.products-main-container h2 {
+  font-size: 18.72px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .main-divisor,
+  .subscription div,
+  .newsletter-form {
+    flex-direction: column;
+  }
+  .menu div {
+    padding-top: 11px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .newsletter-form input {
+    margin-bottom: 7px;
+    width: 100%;
+  }
+  .newsletter-form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .products-main-container {
+    flex-direction: column;
+  }
+
+  .icon1 {
+    margin-top: 20px;
+  }
+}

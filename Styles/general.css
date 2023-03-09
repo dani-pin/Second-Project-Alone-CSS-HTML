@@ -1,0 +1,102 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 0px auto;
+  width: 80%;
+  overflow: hidden;
+}
+
+.site-nav {
+  min-height: 60px;
+  padding: 30px 0px 20px;
+  border-bottom: 4px solid #e8491d;
+  background-color: #35424a;
+  color: #fff;
+}
+
+.logo-p {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.logo-p a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.menu div {
+  padding: 0px 20px;
+}
+
+.menu-a {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-a:hover {
+  color: rgb(157, 151, 151);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.subscription {
+  padding: 15px;
+  background-color: #35424a;
+  color: white;
+}
+
+.subscription p {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin: 25px 0px;
+}
+
+.newsletter-form input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 5px;
+  border: none;
+}
+
+.newsletter-form button {
+  border: none;
+  background-color: #e8491d;
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright {
+  margin-top: 20px;
+  padding: 35px;
+  text-align: center;
+  color: white;
+  background-color: #e8491d;
+}
+
+.text--secondary {
+  color: #e8491d;
+  font-weight: 700;
+}
